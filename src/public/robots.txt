@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Placeholder robots.txt — update with sitemap and host rules at launch.

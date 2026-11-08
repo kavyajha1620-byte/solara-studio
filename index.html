@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- BRAND PLACEHOLDER: "Solara" is an editable placeholder. Replace it on
+       every page (header, curtain, footer, titles) with the client name. -->
+  <title>Solara — Yoga · Fitness · Wellness Studio | Placeholder Brand</title>
+  <meta name="description" content="A cinematic, edit-ready website concept for a premium yoga, fitness and wellness studio. Placeholder copy throughout." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script>
+    /* enables animation-ready CSS only when JS runs; self-heals if the app never boots */
+    document.documentElement.classList.add('js');
+    setTimeout(function () {
+      if (!(document.body && document.body.dataset.booted)) document.documentElement.classList.remove('js');
+    }, 2600);
+  </script>
+  <script type="module" src="/src/js/main.js"></script>
+</head>
+<body data-page="home">
+
+  <!-- intro curtain (no JS = never shown) -->
+  <div class="curtain is-intro" aria-hidden="true">
+    <span class="curtain-brand">Solara</span>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Solara — home">Solara</a>
+      <nav class="main-nav" aria-label="Primary">
+        <div class="nav-drop">
+          <a href="classes.html">Classes <span class="dd-caret" aria-hidden="true">▾</span></a>
+          <div class="nav-drop-panel">
+            <a href="yoga.html">Yoga</a>
+            <a href="fitness.html">Fitness &amp; Training</a>
+            <a href="meditation.html">Meditation</a>
+          </div>
+        </div>
+        <a href="instructors.html">Instructors</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-right">
+        <a class="btn btn--light header-cta" href="booking.html">Book a Session</a>
+        <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="index.html" aria-current="page"><span class="idx">01</span>Home</a></li>
+        <li><a href="about.html"><span class="idx">02</span>About</a></li>
+        <li><a href="classes.html"><span class="idx">03</span>Classes</a></li>
+        <li><a href="yoga.html"><span class="idx">04</span>Yoga</a></li>
+        <li><a href="fitness.html"><span class="idx">05</span>Fitness</a></li>
+        <li><a href="meditation.html"><span class="idx">06</span>Meditation</a></li>
+        <li><a href="instructors.html"><span class="idx">07</span>Instructors</a></li>
+        <li><a href="gallery.html"><span class="idx">08</span>Gallery</a></li>
+        <li><a href="contact.html"><span class="idx">09</span>Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <span>Class enquiries</span>
+      <a href="booking.html">Book a session →</a>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ==========================================================
+         HERO
+         ========================================================== -->
+    <section class="hero" aria-label="Introduction">
+      <div class="hero-media" data-parallax="14">
+        <!-- EDIT: hero photograph -->
+        <img src="/images/photo-1544367567-0f2fcb009e0b.jpg"
+             sizes="100vw"
+             alt="Silhouette of a yoga posture against a deep sunset sky"
+             width="1920" height="1080" fetchpriority="high" decoding="async" />
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow" data-cue>Yoga · Pilates · Strength</p>
+        <h1 class="hero-title" id="hero-title">
+          <span class="line"><span>Strength you can <em>feel.</em></span></span>
+          <span class="line"><span>Calm you can <em>keep.</em></span></span>
+        </h1>
+        <p class="hero-lede" data-cue>A studio built around movement, breath and attention. [Placeholder positioning line — one short sentence.]</p>
+        <div class="hero-actions" data-cue>
+          <a class="btn btn--light" href="booking.html">Book a session <span class="arrow" aria-hidden="true">→</span></a>
+          <a class="link-underline hero-explore" href="classes.html">Explore classes <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span class="cue-line"></span>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         BRAND INTRODUCTION
+         ========================================================== -->
+    <section class="section" aria-labelledby="intro-h">
+      <div class="container">
+        <div class="split">
+          <div class="split-body">
+            <p class="eyebrow" data-reveal>The Studio</p>
+            <!-- EDIT: brand introduction copy -->
+            <h2 class="statement-lede" id="intro-h" data-words>A place where movement, breath and quiet attention hold the world at your <em>own rhythm.</em></h2>
+          </div>
+          <div class="split-media statement-meta">
+            <!-- EDIT: supporting copy -->
+            <p data-reveal data-reveal-delay="0.15">
+              This introduction is placeholder copy. Write here how the studio
+              was created, who it serves, and why it exists — focused on
+              atmosphere and intent rather than claims. Keep it short,
+              confident and personal.
+            </p>
+            <a class="link-underline" href="about.html" data-reveal data-reveal-delay="0.25">Read our story <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         PHILOSOPHY (dark)
+         ========================================================== -->
+    <section class="section on-dark" aria-labelledby="philosophy-h">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow" data-reveal>Philosophy</p>
+            <h2 class="h2" id="philosophy-h" data-words style="margin-top:1.2rem">Wellness, practised as a <em>way of living.</em></h2>
+          </div>
+          <p class="lede" data-reveal data-reveal-delay="0.15">
+            Placeholder text: describe the guiding idea behind your training —
+            movement, breath, discipline and recovery — in language that
+            reflects your own voice and avoids promises about outcomes.
+          </p>
+        </div>
+
+        <!-- EDIT: three philosophy pillars -->
+        <div class="values-list" data-reveal-group>
+          <div class="philosophy-row">
+            <span class="num-large">01</span>
+            <div><h3 class="h3">Move with intention</h3><p>Placeholder pillar copy — describe how classes balance effort and control, from yoga flows to strength work.</p></div>
+          </div>
+          <div class="philosophy-row">
+            <span class="num-large">02</span>
+            <div><h3 class="h3">Breath as anchor</h3><p>Placeholder pillar copy — attention to breath across practices: mat work, apparatus, stillness.</p></div>
+          </div>
+          <div class="philosophy-row">
+            <span class="num-large">03</span>
+            <div><h3 class="h3">Progress without noise</h3><p>Placeholder pillar copy — personal pacing over programmes, quality of movement over quantity. No outcome promises.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         EXPLORE ACTIVITIES — six disciplines
+         ========================================================== -->
+    <section class="section" aria-labelledby="signature-h">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow" data-reveal>Explore Activities</p>
+            <h2 class="h2" id="signature-h" data-words style="margin-top:1.2rem">Six ways to <em>move.</em></h2>
+          </div>
+          <p class="lede" data-reveal data-reveal-delay="0.15">Yoga, Pilates, meditation, strength, functional fitness and mobility — placeholder descriptions, your real offering details here.</p>
+        </div>
+
+        <!-- EDIT: six activities — photography + links -->
+        <div class="disc-grid">
+          <a class="disc" href="yoga.html" data-reveal>
+            <span class="disc-media"><img src="/images/photo-1552196563-55cd4e45efb3.jpg" alt="A yogi seated on a mat in a warm timber studio" width="900" height="1125" loading="lazy" decoding="async" /></span>
+            <span class="disc-body">
+              <span class="disc-num">01 — Practice</span>
+              <span class="disc-name">Yoga</span>
+              <span class="disc-desc">Placeholder: flow, strength and stillness on the mat — guided by breath and pace.</span>
+              <span class="disc-go">Explore Yoga <span class="a" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+          <a class="disc" href="classes.html#pilates" data-reveal>
+            <span class="disc-media"><img src="/images/photo-1747239069226-55382c570116.jpg" alt="Legs extended during a Pilates reformer exercise" width="900" height="1125" loading="lazy" decoding="async" /></span>
+            <span class="disc-body">
+              <span class="disc-num">02 — Practice</span>
+              <span class="disc-name">Pilates</span>
+              <span class="disc-desc">Placeholder: precise, apparatus-based work for alignment, core and control.</span>
+              <span class="disc-go">Explore Pilates <span class="a" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+          <a class="disc" href="meditation.html" data-reveal>
+            <span class="disc-media"><img src="/images/photo-1506126613408-eca07ce68773.jpg" alt="A seated meditation beside warm evening light" width="900" height="1125" loading="lazy" decoding="async" /></span>
+            <span class="disc-body">
+              <span class="disc-num">03 — Practice</span>
+              <span class="disc-name">Meditation</span>
+              <span class="disc-desc">Placeholder: guided stillness and mindfulness sessions, from minutes to an hour.</span>
+              <span class="disc-go">Explore Meditation <span class="a" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+          <a class="disc" href="fitness.html#strength" data-reveal>
+            <span class="disc-media"><img src="/images/photo-1554344728-77cf90d9ed26.jpg" alt="An athlete training with dumbbells in dramatic low light" width="900" height="1125" loading="lazy" decoding="async" /></span>
+            <span class="disc-body">
+              <span class="disc-num">04 — Practice</span>
+              <span class="disc-name">Strength Training</span>
+              <span class="disc-desc">Placeholder: coached barbell and dumbbell work, built on movement quality first.</span>
+              <span class="disc-go">Explore Strength <span class="a" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+          <a class="disc" href="fitness.html#functional" data-reveal>
+            <span class="disc-media"><img src="/images/photo-1648235692910-947cb90ddd97.jpg" alt="A sprint-track lane inside a dark training studio" width="900" height="1125" loading="lazy" decoding="async" /></span>
+            <span class="disc-body">
+              <span class="disc-num">05 — Practice</span>
+              <span class="disc-name">Functional Fitness</span>
+              <span class="disc-desc">Placeholder: group conditioning for everyday capacity — force, pace, recovery.</span>
+              <span class="disc-go">Explore Functional <span class="a" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+          <a class="disc" href="classes.html#mobility" data-reveal>
+            <span class="disc-media"><img src="/images/photo-1761035005546-62b8018b212a.jpg" alt="A row of people reaching toward their feet on yoga mats" width="900" height="1125" loading="lazy" decoding="async" /></span>
+            <span class="disc-body">
+              <span class="disc-num">06 — Practice</span>
+              <span class="disc-name">Mobility &amp; Stretching</span>
+              <span class="disc-desc">Placeholder: structured sessions to restore range, ease and posture.</span>
+              <span class="disc-go">Explore Mobility <span class="a" aria-hidden="true">→</span></span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         A SESSION AT THE STUDIO — pinned horizontal sequence
+         ========================================================== -->
+    <section class="section on-dark h-seq" aria-labelledby="featured-h">
+      <div class="h-seq-head">
+        <p class="eyebrow" data-reveal>The Session</p>
+        <h2 class="h2" id="featured-h" data-words style="margin-top:1.2rem; max-width:14ch">How a visit <em>unfolds.</em></h2>
+      </div>
+      <div class="h-seq-trackwrap">
+        <!-- EDIT: studio moments carousel -->
+        <div class="h-seq-track">
+          <figure class="h-seq-item" data-h-item>
+            <div class="frame r-4x5"><img src="/images/photo-1599901860904-17e6ed7083a0.jpg" alt="A focused downward-dog pose on a studio mat" width="900" height="1125" loading="lazy" decoding="async" /></div>
+            <figcaption class="h-seq-cap"><span>Arrive &amp; settle</span><span>Session 01</span></figcaption>
+          </figure>
+          <figure class="h-seq-item" data-h-item>
+            <div class="frame r-4x5"><img src="/images/photo-1545205597-3d9d02c29597.jpg" alt="A group holding aligned posture during class" width="900" height="1125" loading="lazy" decoding="async" /></div>
+            <figcaption class="h-seq-cap"><span>Guided practice</span><span>Session 02</span></figcaption>
+          </figure>
+          <figure class="h-seq-item" data-h-item>
+            <div class="frame r-4x5"><img src="/images/photo-1603077492579-39ff927823db.jpg" alt="A rack of dumbbells in soft side light" width="900" height="1125" loading="lazy" decoding="async" /></div>
+            <figcaption class="h-seq-cap"><span>Strength floor</span><span>Session 03</span></figcaption>
+          </figure>
+          <figure class="h-seq-item" data-h-item>
+            <div class="frame r-4x5"><img src="/images/photo-1717500252573-d31d4bf5ddf1.jpg" alt="Reformer apparatus in use during a Pilates class" width="900" height="1125" loading="lazy" decoding="async" /></div>
+            <figcaption class="h-seq-cap"><span>Apparatus work</span><span>Session 04</span></figcaption>
+          </figure>
+          <figure class="h-seq-item" data-h-item>
+            <div class="frame r-4x5"><img src="/images/photo-1596178065887-1198b6148b2b.jpg" alt="Still water reflecting warm evening light" width="900" height="1125" loading="lazy" decoding="async" /></div>
+            <figcaption class="h-seq-cap"><span>Quiet close</span><span>Session 05</span></figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="container" style="margin-top:2.2rem">
+        <a class="btn btn--light" href="classes.html">View all classes <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         THE BUILDING — full-bleed + asymmetric editorial
+         ========================================================== -->
+    <section class="section--sm" aria-label="The studio space">
+      <figure data-parallax="12" style="margin:0">
+        <div class="bleed">
+          <div class="bleed-media">
+            <img src="/images/photo-1493397212122-2b85dda8106b.jpg"
+                 sizes="100vw"
+                 alt="Undulating woven-metal facade of contemporary architecture" width="1920" height="1280" loading="lazy" decoding="async" />
+          </div>
+          <figcaption class="bleed-caption">
+            <p class="eyebrow">Architecture</p>
+            <p class="bleed-title" data-words>Built for <em>shadow and light.</em></p>
+          </figcaption>
+        </div>
+      </figure>
+
+      <div class="container section--sm">
+        <div class="editorial-grid">
+          <figure class="ed-a" data-clip>
+            <div class="frame r-3x2"><img src="/images/photo-1497604401993-f2e922e5cb0a.jpg" alt="Curved façade clad in pale tiles" width="1400" height="933" loading="lazy" decoding="async" /></div>
+            <figcaption><span>Reception &amp; lounge</span><span>Placeholder caption</span></figcaption>
+          </figure>
+          <figure class="ed-b" data-clip>
+            <div class="frame r-4x5"><img src="/images/photo-1533090161767-e6ffed986c88.jpg" alt="Sculptural chair against a warm plaster wall" width="1000" height="1250" loading="lazy" decoding="async" /></div>
+            <figcaption><span>Reading corner</span><span>Placeholder</span></figcaption>
+          </figure>
+          <figure class="ed-c" data-clip>
+            <div class="frame r-4x3"><img src="/images/photo-1524758631624-e2822e304c36.jpg" alt="Long timber table in a warm, softly lit interior" width="1200" height="900" loading="lazy" decoding="async" /></div>
+            <figcaption><span>Shared table</span><span>Placeholder</span></figcaption>
+          </figure>
+          <div class="ed-d" data-reveal>
+            <p class="eyebrow">In the details</p>
+            <h3 class="h3" style="margin-top:1rem">Placeholder heading about materials</h3>
+            <p class="small" style="margin-top:0.8rem">Short editorial note on stone, timber and plaster — replace with your own materials story.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         EDITORIAL STORYTELLING — sticky image with steps
+         ========================================================== -->
+    <section class="sticky-story" data-sticky-story aria-label="A session at Solara">
+      <div class="story-media">
+        <!-- EDIT: step photographs (stacked, cross-fading) -->
+        <img class="story-img" src="/images/photo-1545205597-3d9d02c29597.jpg" alt="A small group moving together in class" width="1600" height="1000" loading="lazy" decoding="async" />
+        <img class="story-img" src="/images/photo-1637430308606-86576d8fef3c.jpg" alt="A dark training floor with warm pools of light" width="1600" height="1000" loading="lazy" decoding="async" />
+        <img class="story-img" src="/images/photo-1596178065887-1198b6148b2b.jpg" alt="Still, warm water in the recovery room" width="1600" height="1000" loading="lazy" decoding="async" />
+        <span class="story-label">A session at Solara — placeholder sequence</span>
+      </div>
+
+      <div class="story-steps">
+        <!-- EDIT: three story steps -->
+        <div class="story-step"><div class="step-card"><span class="step-num">Minutes 00–10</span><h3>Arrive and breathe</h3><p>Placeholder step copy — how a visit begins: settling in, breath work, intention for the hour.</p></div></div>
+        <div class="story-step"><div class="step-card"><span class="step-num">Minutes 10–50</span><h3>Practise with attention</h3><p>Placeholder step copy — the class itself: pacing, corrections and apparatus or mat work.</p></div></div>
+        <div class="story-step"><div class="step-card"><span class="step-num">Minutes 50–75</span><h3>Close with stillness</h3><p>Placeholder step copy — stretching, breathing and quiet before stepping back into the day.</p></div></div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         GALLERY PREVIEW
+         ========================================================== -->
+    <section class="section" aria-labelledby="gallery-h">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow" data-reveal>Gallery</p>
+            <h2 class="h2" id="gallery-h" data-words style="margin-top:1.2rem">Light, texture, <em>presence.</em></h2>
+          </div>
+          <div data-reveal data-reveal-delay="0.15">
+            <p class="lede">A preview of the spaces and atmosphere that frame every session.</p>
+            <a class="link-underline" href="gallery.html" style="margin-top:1.2rem">Enter the full gallery <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDIT: preview grid -->
+      <div class="container" data-reveal-group>
+        <div class="g-grid">
+          <a class="g-item g-w5" href="gallery.html">
+            <img src="/images/photo-1518005020951-eccb494ad742.jpg" alt="Angular pale architecture against a bright sky" width="1200" height="800" loading="lazy" decoding="async" />
+            <span class="g-cap">The building</span>
+          </a>
+          <a class="g-item g-w4" href="gallery.html">
+            <img src="/images/photo-1596436889106-be35e843f974.jpg" alt="Palm shadows crossing a quiet pool at dusk" width="1000" height="750" loading="lazy" decoding="async" />
+            <span class="g-cap">After class</span>
+          </a>
+          <a class="g-item g-w3 g-mob-wide" href="gallery.html">
+            <img src="/images/photo-1596178065887-1198b6148b2b.jpg" alt="Still, warm water in the recovery room" width="900" height="1200" loading="lazy" decoding="async" />
+            <span class="g-cap">Recovery room</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         TESTIMONIALS — clearly labelled placeholders only
+         ========================================================== -->
+    <section class="section on-dark" aria-labelledby="testimonials-h">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow" data-reveal>Member Reflections</p>
+            <h2 class="h2" id="testimonials-h" data-words style="margin-top:1.2rem">Words to be <em>replaced.</em></h2>
+          </div>
+          <p class="lede" data-reveal data-reveal-delay="0.15">These slides are labelled placeholders for structure only. They must be replaced with verified member feedback before launch — never publish invented reviews.</p>
+        </div>
+
+        <div data-testimonials>
+          <div class="testimonial-stage" aria-live="polite">
+            <blockquote class="t-slide is-active">
+              <p class="t-quote">[Placeholder testimonial copy. Replace with a verified member review.]</p>
+              <footer class="t-meta"><cite class="t-name">[Placeholder member name]</cite><span class="t-tag">[Placeholder · class type]</span></footer>
+            </blockquote>
+            <blockquote class="t-slide">
+              <p class="t-quote">[Placeholder testimonial copy. Replace with a verified member review.]</p>
+              <footer class="t-meta"><cite class="t-name">[Placeholder member name]</cite><span class="t-tag">[Placeholder · class type]</span></footer>
+            </blockquote>
+            <blockquote class="t-slide">
+              <p class="t-quote">[Placeholder testimonial copy. Replace with a verified member review.]</p>
+              <footer class="t-meta"><cite class="t-name">[Placeholder member name]</cite><span class="t-tag">[Placeholder · class type]</span></footer>
+            </blockquote>
+          </div>
+
+          <div class="testimonial-ctl">
+            <span class="t-count">01 / 03</span>
+            <div class="t-dots">
+              <button class="t-dot is-active" type="button" aria-label="Show reflection 1"></button>
+              <button class="t-dot" type="button" aria-label="Show reflection 2"></button>
+              <button class="t-dot" type="button" aria-label="Show reflection 3"></button>
+            </div>
+            <div class="t-arrows">
+              <button class="t-arrow t-prev" type="button" aria-label="Previous reflection">←</button>
+              <button class="t-arrow t-next" type="button" aria-label="Next reflection">→</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================
+         BOOKING CTA
+         ========================================================== -->
+    <section class="section on-stone" aria-labelledby="cta-h">
+      <div class="container">
+        <div class="split">
+          <div class="split-body" style="margin-inline:auto; text-align:center; justify-items:center">
+            <p class="eyebrow" data-reveal>First session</p>
+            <h2 class="statement-lede" id="cta-h" data-words>Your practice can start <em>this week.</em></h2>
+            <p class="lede" data-reveal data-reveal-delay="0.15">Request a class or session below and our team will reply personally — no obligation, no automated confirmations.</p>
+            <div class="hero-actions" style="justify-content:center" data-reveal data-reveal-delay="0.25">
+              <a class="btn btn--dark" href="booking.html">Book a session <span class="arrow" aria-hidden="true">→</span></a>
+              <a class="btn btn--dark" href="contact.html">Ask a question <span class="arrow" aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <p class="big-name">Solara</p>
+        <div class="footer-cols">
+          <div>
+            <h3>The Studio</h3>
+            <p class="footer-about small on-dark-muted" style="color:var(--on-dark-muted)">Placeholder footer statement — a premium yoga, fitness and wellness studio. Replace with your own positioning line.</p>
+          </div>
+          <div>
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="classes.html">Classes</a></li>
+              <li><a href="yoga.html">Yoga</a></li>
+              <li><a href="fitness.html">Fitness &amp; Training</a></li>
+              <li><a href="meditation.html">Meditation</a></li>
+              <li><a href="instructors.html">Instructors</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Visit</h3>
+            <ul>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="booking.html">Book a Session</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li>[Placeholder address]</li>
+              <li><a href="tel:+10000000000">[Placeholder phone]</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Hours</h3>
+            <ul>
+              <li>[Placeholder opening hours]</li>
+              <li>Class times confirmed personally after booking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span class="footer-year"></span> Solara — placeholder brand.</span>
+        <span>All content editable · imagery to be replaced with client photography</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="grain" aria-hidden="true"></div>
+</body>
+</html>

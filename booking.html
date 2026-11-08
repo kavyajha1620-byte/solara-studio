@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- BRAND PLACEHOLDER: replace "Solara" everywhere before launch -->
+  <title>Book a Session — Solara | Yoga · Fitness · Wellness Studio</title>
+  <meta name="description" content="Request a class or session at Solara — an enquiry-based booking flow with honest, working states. No fake confirmations." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script>
+    document.documentElement.classList.add('js');
+    setTimeout(function () {
+      if (!(document.body && document.body.dataset.booted)) document.documentElement.classList.remove('js');
+    }, 2600);
+  </script>
+  <script type="module" src="/src/js/main.js"></script>
+</head>
+<body data-page="booking" data-contact-email="[reservations@example.com]">
+
+  <div class="curtain is-intro" aria-hidden="true"><span class="curtain-brand">Solara</span></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="Solara — home">Solara</a>
+      <nav class="main-nav" aria-label="Primary">
+        <div class="nav-drop">
+          <a href="classes.html">Classes <span class="dd-caret" aria-hidden="true">▾</span></a>
+          <div class="nav-drop-panel">
+            <a href="yoga.html">Yoga</a>
+            <a href="fitness.html">Fitness &amp; Training</a>
+            <a href="meditation.html">Meditation</a>
+          </div>
+        </div>
+        <a href="instructors.html">Instructors</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-right">
+        <a class="btn btn--light header-cta" href="booking.html" aria-current="page">Book a Session</a>
+        <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <nav aria-label="Mobile"><ul>
+      <li><a href="index.html"><span class="idx">01</span>Home</a></li>
+      <li><a href="about.html"><span class="idx">02</span>About</a></li>
+      <li><a href="classes.html"><span class="idx">03</span>Classes</a></li>
+      <li><a href="yoga.html"><span class="idx">04</span>Yoga</a></li>
+      <li><a href="fitness.html"><span class="idx">05</span>Fitness</a></li>
+      <li><a href="meditation.html"><span class="idx">06</span>Meditation</a></li>
+      <li><a href="instructors.html"><span class="idx">07</span>Instructors</a></li>
+      <li><a href="gallery.html"><span class="idx">08</span>Gallery</a></li>
+      <li><a href="contact.html"><span class="idx">09</span>Contact</a></li>
+    </ul></nav>
+    <div class="menu-foot"><span>Class enquiries</span><a href="booking.html">Book a session →</a></div>
+  </div>
+
+  <main id="top">
+
+    <section class="page-hero" aria-label="Book a session">
+      <div class="page-hero-media" data-parallax="12">
+        <img src="/images/photo-1506905925346-21bda4d32df4.jpg"
+             sizes="100vw" alt="Peaks above a sea of cloud at dusk" width="1920" height="1280" fetchpriority="high" decoding="async" />
+      </div>
+      <div class="page-hero-content">
+        <p class="breadcrumbs" data-cue><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Book a Session</span></p>
+        <h1 class="page-title"><span class="line"><span>Book a <em>session.</em></span></span></h1>
+        <p class="lede" data-cue style="color:var(--on-dark-muted);max-width:52ch">This is a request, not an automated confirmation. A person on our team will read it, check availability and reply personally.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Booking request form">
+      <div class="container" style="max-width:1100px">
+
+        <!-- Step 1–3: choose class, view schedule, pick session, submit -->
+        <div class="split" style="align-items:start">
+          <div class="split-media" data-clip>
+            <figure class="frame r-3x2" style="margin:0">
+              <img src="/images/photo-1783841193384-4269c68aa050.jpg" alt="A bright studio lined with training apparatus" width="1300" height="867" loading="lazy" decoding="async" />
+            </figure>
+            <p class="split-caption"><span>The studio</span><span>[Replace photography]</span></p>
+
+            <!-- Step mirror: schedule follows the chosen class -->
+            <div data-reveal data-reveal-delay="0.2" style="margin-top:2rem">
+              <p class="eyebrow">What happens next</p>
+              <ul class="spec-list" style="margin-top:1rem">
+                <li><span class="k">01</span><span class="v">Choose a class and preferred day/time below.</span></li>
+                <li><span class="k">02</span><span class="v">We confirm availability by e-mail within one working day.</span></li>
+                <li><span class="k">03</span><span class="v">Only then is a session held — never automatically.</span></li>
+              </ul>
+
+              <div style="margin-top:2rem">
+                <p class="eyebrow" data-sched-title>Choose a class to view its schedule</p>
+                <ul class="sched" data-sched-list style="margin-top:1rem"></ul>
+                <p class="small" data-sched-note style="margin-top:0.9rem; color:var(--muted)">Schedules are placeholders until the studio supplies final times — availability is always confirmed personally by e-mail.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="split-body" style="justify-self:stretch">
+            <form data-form data-endpoint-note="Booking request" data-contact-email="[reservations@example.com]" novalidate style="width:100%; display:grid; gap:2.2rem">
+              <div>
+                <p class="eyebrow" data-reveal>Booking request</p>
+                <h2 class="h3" data-words style="margin-top:1rem">Your <em>details.</em></h2>
+              </div>
+
+              <div class="form-grid">
+                <div class="u-half">
+                  <div class="field">
+                    <label for="b-name">Full name</label>
+                    <input id="b-name" name="name" type="text" autocomplete="name" required />
+                    <span class="err" aria-live="polite"></span>
+                  </div>
+                  <div class="field">
+                    <label for="b-email">E-mail</label>
+                    <input id="b-email" name="email" type="email" autocomplete="email" required />
+                    <span class="err" aria-live="polite"></span>
+                  </div>
+                </div>
+                <div class="u-half">
+                  <div class="field">
+                    <label for="b-phone">Phone</label>
+                    <input id="b-phone" name="phone" type="tel" autocomplete="tel" required />
+                    <span class="err" aria-live="polite"></span>
+                  </div>
+                  <div class="field">
+                    <label for="b-class">Choose a class</label>
+                    <select id="b-class" name="class" required>
+                      <option value="" selected disabled>Choose a class…</option>
+                      <option value="yoga">Yoga</option>
+                      <option value="pilates">Pilates</option>
+                      <option value="meditation">Meditation &amp; mindfulness</option>
+                      <option value="strength">Strength training</option>
+                      <option value="functional">Functional fitness</option>
+                      <option value="mobility">Mobility &amp; stretching</option>
+                      <option value="personal-training">Personal training (one-to-one)</option>
+                      <option value="undecided">Not sure yet — advise me</option>
+                    </select>
+                    <span class="err" aria-live="polite"></span>
+                  </div>
+                </div>
+                <div class="u-half">
+                  <div class="field">
+                    <label for="b-date">Preferred date</label>
+                    <input id="b-date" name="date" type="date" required />
+                    <span class="err" aria-live="polite"></span>
+                  </div>
+                  <div class="field">
+                    <label for="b-time">Preferred time</label>
+                    <select id="b-time" name="time" required>
+                      <option value="" selected disabled>Choose a time…</option>
+                      <option>Morning</option>
+                      <option>Midday</option>
+                      <option>Afternoon</option>
+                      <option>Evening</option>
+                    </select>
+                    <span class="err" aria-live="polite"></span>
+                  </div>
+                </div>
+                <div class="field" style="grid-column:1/-1">
+                  <label for="b-message">Additional message <span style="opacity:.5">(optional)</span></label>
+                  <textarea id="b-message" name="message" placeholder="Anything we should know — experience level, class goals, group size…"></textarea>
+                  <span class="err" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-status"></div>
+
+              <div style="display:grid; gap:1rem; justify-items:start">
+                <button class="btn btn--dark" type="submit">
+                  <span class="spinner" aria-hidden="true"></span>
+                  Send booking request <span class="arrow" aria-hidden="true">→</span>
+                </button>
+                <p class="form-note">Submitting does not confirm a session — a team member personally confirms availability afterwards. [Placeholder e-mail shown in the confirmation once verified.]</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How booking works -->
+    <section class="section on-dark" aria-labelledby="book-how-h">
+      <div class="container">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow" data-reveal>How booking works</p>
+            <h2 class="h2" id="book-how-h" data-words style="margin-top:1.2rem">Honest, and always by <em>e-mail.</em></h2>
+          </div>
+          <p class="lede" data-reveal data-reveal-delay="0.15">Placeholder copy — until a booking backend is connected, every request is read and replied to by a person. No automated spots, no payment details, no invented confirmations.</p>
+        </div>
+        <div class="values-list" data-reveal-group>
+          <div class="philosophy-row"><span class="num-large">01</span><div><h3 class="h3">You request</h3><p>Choose a class, a day and a time. Nothing is charged and nothing is reserved automatically.</p></div></div>
+          <div class="philosophy-row"><span class="num-large">02</span><div><h3 class="h3">We confirm</h3><p>A coach replies personally — helping you pick the right session if you're unsure, or confirming the slot you chose.</p></div></div>
+          <div class="philosophy-row"><span class="num-large">03</span><div><h3 class="h3">You arrive</h3><p>Your session is held under that confirmation. Timetables shared on this site are placeholders until the studio finalises them.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section on-stone" aria-labelledby="book-cta-h">
+      <div class="container container--narrow" style="text-align:center">
+        <p class="eyebrow" data-reveal style="justify-content:center">Prefer to talk?</p>
+        <h2 class="statement-lede" id="book-cta-h" data-words style="margin-inline:auto">Reach us <em>directly.</em></h2>
+        <p class="lede" data-reveal data-reveal-delay="0.1" style="margin-inline:auto">[Placeholder phone] · [Placeholder e-mail] · [Placeholder address]</p>
+        <div class="hero-actions" style="justify-content:center; margin-top:2rem" data-reveal data-reveal-delay="0.2">
+          <a class="btn btn--dark" href="contact.html">Contact page <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <p class="big-name">Solara</p>
+        <div class="footer-cols">
+          <div>
+            <h3>The Studio</h3>
+            <p class="footer-about small" style="color:var(--on-dark-muted)">Placeholder footer statement — a premium yoga, fitness and wellness studio. Replace with your own positioning line.</p>
+          </div>
+          <div>
+            <h3>Explore</h3>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="classes.html">Classes</a></li>
+              <li><a href="yoga.html">Yoga</a></li>
+              <li><a href="fitness.html">Fitness &amp; Training</a></li>
+              <li><a href="meditation.html">Meditation</a></li>
+              <li><a href="instructors.html">Instructors</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Visit</h3>
+            <ul>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="booking.html">Book a Session</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li>[Placeholder address]</li>
+              <li><a href="tel:+10000000000">[Placeholder phone]</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Hours</h3>
+            <ul>
+              <li>[Placeholder opening hours]</li>
+              <li>Class times confirmed personally after booking</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span class="footer-year"></span> Solara — placeholder brand.</span>
+        <span>All content editable · imagery to be replaced with client photography</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="grain" aria-hidden="true"></div>
+</body>
+</html>

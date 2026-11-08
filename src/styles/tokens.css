@@ -1,0 +1,56 @@
+/* ============================================================
+   WELLNESS — DESIGN TOKENS
+   Edit these values to re-skin the entire website.
+   ============================================================ */
+
+:root {
+  /* --- Colour: deep, warm, architectural palette --- */
+  --ink: #14110c;
+  --ink-2: #1a1611;
+  --charcoal: #211c15;
+  --charcoal-soft: #2a241c;
+  --charcoal-line: rgba(244, 239, 230, 0.14);
+
+  --stone: #e9e2d6;
+  --stone-2: #ded5c5;
+  --sand: #cfc2ac;
+  --taupe: #a4957f;
+  --bronze: #7c6142;
+  --bronze-soft: #b5946c;
+  --bronze-line: rgba(183, 158, 122, 0.5);
+  --cream: #f4f0e7;
+  --cream-soft: #efe9dd;
+  --muted: #6a6156;
+  --on-dark-muted: rgba(244, 239, 230, 0.72);
+
+  /* --- Typography --- */
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-body: "Manrope", "Helvetica Neue", Arial, sans-serif;
+
+  --fs-hero: clamp(2.9rem, 9.2vw, 8.75rem);
+  --fs-display: clamp(2.4rem, 6.4vw, 5.5rem);
+  --fs-h2: clamp(2rem, 4.6vw, 3.9rem);
+  --fs-h3: clamp(1.5rem, 2.6vw, 2.3rem);
+  --fs-body: clamp(1rem, 1.15vw, 1.125rem);
+  --fs-small: 0.875rem;
+  --fs-micro: 0.72rem;
+
+  --track-wide: 0.22em;
+  --track-mid: 0.12em;
+
+  /* --- Rhythm --- */
+  --section-pad: clamp(5.5rem, 11vw, 11.5rem);
+  --section-pad-sm: clamp(3.5rem, 7vw, 6.5rem);
+  --gutter: clamp(1.25rem, 4.5vw, 4.75rem);
+  --gutter-y: clamp(5rem, 12vh, 9rem);
+
+  /* --- Details --- */
+  --radius: 2px;
+
+  --ease-out: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-soft: cubic-bezier(0.45, 0, 0.15, 1);
+  --dur-fast: 0.35s;
+  --dur-mid: 0.7s;
+
+  --shadow-lift: 0 24px 60px -30px rgba(10, 8, 4, 0.5);
+}
